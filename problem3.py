@@ -8,11 +8,11 @@ prime = 0
 # loop to decompose a number in prime factors
 while num != 1:
     # loop to check if a number is prime
-    while j <= i:
+    while j <= int(i**0.5):
         if (i % j == 0):
             div += 1
         j += 1
-    if div == 2:
+    if div == 1:
         prime = i
         # check if the prime is a factor of the number
         if num % prime == 0:
