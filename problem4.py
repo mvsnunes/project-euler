@@ -24,4 +24,4 @@ for firstnum in range(100, 1000):
 
 
 # display the result
-print("The largest palindrome made from the product of two 3-digit numbers: ", largep)
+print("The largest palindrome made from the product of two 3-digit numbers:", largep)

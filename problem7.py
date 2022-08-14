@@ -26,4 +26,4 @@ while(1):
     num += 2
 
 # display the result
-print(num)
+print("The 10 001st prime number is", num)

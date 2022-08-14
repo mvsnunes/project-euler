@@ -14,4 +14,4 @@ for i in range(2, 21):
     lcm = ((lcm)*(i))/gcd(lcm, i)
 
 # display the result
-print("The smallest positive number that is evenly divisible by all of the numbers from 1 to 20 is ", lcm)
+print("The smallest positive number that is evenly divisible by all of the numbers from 1 to 20 is", lcm)
